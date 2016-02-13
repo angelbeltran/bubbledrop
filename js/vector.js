@@ -11,7 +11,7 @@ Vector.prototype.magnitude = function() {
 
 /* returns distance between two vectors */
 Vector.prototype.distance = function(v) {
-  return Math.sqrt((this.x + v.x)*(this.x + v.x) + (this.y + v.y)*(this.y + v.y))
+  return Math.sqrt((this.x - v.x)*(this.x - v.x) + (this.y - v.y)*(this.y - v.y))
 }
 
 /* returns sum of two vectors, or  */
